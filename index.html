@@ -320,7 +320,7 @@ By leveraging our patented <b>Clown Strike</b> technology we are able to harness
     // we read in a modified file of all country centers
     var centers = [] ;
     d3.tsv("country_centroids_primary.csv", function(data) { centers = data; });
-    d3.csv("samplatlong.csv", function(data) { slatlong = data; });
+    d3.csv("data.csv", function(data) { slatlong = data; });
     d3.csv("cnlatlong.csv", function(data) { cnlatlong = data; });
 
     // setup structures for the "hits" (arcs)
